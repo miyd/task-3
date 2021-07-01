@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>
+    control
+  </title>
+  <style>
+   h1 { color: #ddd; }
+  .table, td {
+
+  padding: 5px;
+}
+.table {
+  border-spacing: 15px;
+}
+  .container {
+    height: 500px;
+    position: relative;
+    border: 5px solid lightblue;
+  }
+
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+  </style>
+</head>
+
+
+<body style="background-color:black;">
+  <div class="container">
+    <div class="center">
+  <h1>لوحه التحكم بالذراع</h1>
+  <table>
+<tr> <td colspan="2" rowspan="2"> <button type="button"style="height:50px;width:90px" onclick="myFunction()">FORWORD</button></td></tr>&nbsp;&nbsp;
+<tr ><center>
+  <td><button type="button" style="height:30px;width:70"pxonclick="myFunction()">RIGHT</button></td>&nbsp;&nbsp;
+  <td><button type="button" style="height:30px;width:70"onclick="myFunction()">STOP</button></td>&nbsp;&nbsp;
+  <td><button type="button" style="height:30px;width:70"onclick="myFunction()">LIFT</button></td>&nbsp;&nbsp;
+</tr>
+    <tr><td colspan="2" rowspan="2"><button type="button"style="height:50px;width:90px" onclick="myFunction()">BACKWORD</button></td></tr>&nbsp;&nbsp;
+ </table>
+  </div>
+</div>
+</body>
+</html>
